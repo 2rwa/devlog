@@ -1,1 +1,134 @@
-<h1>Hello GitHub Pages!</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeshi – About Me</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        #bio { background-color: #e9f7ef; }
+        #music { background-color: #fceae9; }
+        #travel { background-color: #e9e9f7; }
+        #projects { background-color: #fef9e7; }
+        #education-skills { background-color: #e6f9ff; }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .gallery-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery-grid figure {
+            margin: 0;
+            width: calc(33.333% - 20px); /* Adjusting for gap, might need tweaking */
+            box-sizing: border-box;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #ccc;
+        }
+        #projects ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Takeshi</h1>
+        <img src="https://source.unsplash.com/random/150x150?person" alt="Takeshi's Profile Picture">
+        <p>Engineer × Musician × Traveler</p>
+    </header>
+    <section id="bio">
+        <p>Born in Osaka in 1990.</p>
+        <p>Works as a full-stack engineer at a Tokyo startup.</p>
+        <p>Passionate guitarist who loves J-Jazz and synthwave music.</p>
+        <p>Amateur photographer, has traveled to over 20 countries, and is a certified scuba diver.</p>
+        <p>Volunteered to teach coding to high-school students.</p>
+    </section>
+    <section id="music">
+        <h2>🎵 Music</h2>
+        <h3>Favorite Instruments</h3>
+        <p>Electric Guitar, Synthesizer, Piano</p>
+        <h3>Favorite Genres</h3>
+        <p>J-Jazz, Synthwave, Lo-fi Hip Hop</p>
+        <!-- Placeholder for music embed (e.g., YouTube, SoundCloud) -->
+    </section>
+    <section id="travel">
+        <h2>🌍 Travel</h2>
+        <div class="gallery-grid">
+            <figure>
+                <img src="https://source.unsplash.com/random/300x200?travel&sig=1" alt="Travel Photo 1">
+                <figcaption>Caption for travel photo 1</figcaption>
+            </figure>
+            <figure>
+                <img src="https://source.unsplash.com/random/300x200?travel&sig=2" alt="Travel Photo 2">
+                <figcaption>Caption for travel photo 2</figcaption>
+            </figure>
+            <figure>
+                <img src="https://source.unsplash.com/random/300x200?travel&sig=3" alt="Travel Photo 3">
+                <figcaption>Caption for travel photo 3</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>💻 Projects</h2>
+        <ul>
+            <li>Recipe Finder App - <a href="https://github.com/takeshi-fictional/recipe-app" target="_blank">View on GitHub</a></li>
+            <li>IoT Smart Garden Monitor - <a href="https://github.com/takeshi-fictional/iot-garden" target="_blank">View on GitHub</a></li>
+        </ul>
+    </section>
+    <section id="education-skills">
+        <h2>📚 Education & Skills</h2>
+        <h3>Education</h3>
+        <p>B.Sc. in Computer Science - Osaka University</p>
+        <h3>Technologies</h3>
+        <p>JavaScript, Rust, Python, HTML, CSS, Node.js, React</p>
+        <h3>Languages</h3>
+        <p>Japanese (Native), English (Fluent), Spanish (Conversational)</p>
+    </section>
+    <footer>
+        <a href="https://takeshi-fictional-blog.example.com" target="_blank">Blog</a> |
+        <a href="https://github.com/takeshi-fictional" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/takeshi-fictional" target="_blank">LinkedIn</a> |
+        <a href="mailto:takeshi.fictional@example.com">Contact Me</a>
+    </footer>
+</body>
+</html>
